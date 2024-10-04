@@ -3,16 +3,29 @@
 Paso 1: Crear un nuevo repositorio local en Windows
 Comando: **git init**
 Lo primero que haremos será crear un repositorio en nuestra máquina con Windows. Este será el repositorio donde inicializaremos nuestro proyecto llamado "prueba2_Hafsa":
-![Prueba](images/)
+
+![Prueba](./img/2.jpg)
+--- 
 Archivos: archivo1.txt y archivo2.txt
-Creamos dos archivos de texto en el repositorio local con contenido libre. Estos archivos servirán como ejemplo de lo que podría ser cualquier tipo de archivo en un proyecto real.
 
+![Prueba](./img/6.jpg)
 
+crear el repositorio en Github :
+
+![Prueba](./img/3.jpg)
+
+Tener el URL desde GITHUB :
+
+![Prueba](./img/4.jpg)
+
+Para iniciar el control de versiones y permitir el seguimiento de cambios en la carpeta:
+![Prueba](./img/5.jpg)
 
 Paso 2: Conectar con un repositorio remoto en GitHub
 Comando: git remote add origin [URL del repositorio en GitHub]
-Ahora vamos a conectar nuestro repositorio local en Windows con un repositorio remoto en GitHub. Esto nos permitirá subir nuestros archivos para compartirlos con otros desarrolladores o simplemente para hacer una copia de seguridad en la nube.
+Ahora vamos a conectar nuestro repositorio local en Windows con un repositorio remoto en GitHub. Esto nos permitirá subir nuestros archivos para compartirlos con otros desarrolladores o simplemente para hacer una copia de seguridad en la nube:
 
+![Prueba](./img/7.jpg)
 
 
 Paso 3: Subir el repositorio local a GitHub
