@@ -1,62 +1,43 @@
-# Creación y Sincronización de un Repositorio Git entre Windows y Linux Debian
+## Índice
 
-Paso 1: Crear un nuevo repositorio local en Windows
-Comando: **git init**
-Lo primero que haremos será crear un repositorio en nuestra máquina con Windows. Este será el repositorio donde inicializaremos nuestro proyecto llamado "prueba2_Hafsa":
+- [Índice](#índice)
+- [Pasos detallados](#pasos-detallados)
+  - [1. Crear el repositorio local en Windows](#1-crear-el-repositorio-local-en-windows)
+  - [2. Añadir archivos al repositorio](#2-añadir-archivos-al-repositorio)
+  - [3. Conectar con el repositorio remoto en GitHub](#3-conectar-con-el-repositorio-remoto-en-github)
+  - [4. Subir el repositorio local a GitHub](#4-subir-el-repositorio-local-a-github)
+  - [5. Clonar el repositorio en Linux Debian](#5-clonar-el-repositorio-en-linux-debian)
+  - [6. Modificar archivos y añadir uno nuevo en Windows](#6-modificar-archivos-y-añadir-uno-nuevo-en-windows)
+  - [7. Confirmar y subir los cambios al repositorio](#7-confirmar-y-subir-los-cambios-al-repositorio)
+  - [8. Actualizar la versión local en Linux Debian](#8-actualizar-la-versión-local-en-linux-debian)
 
-![Prueba](./img/2.jpg)
---- 
-Archivos: archivo1.txt y archivo2.txt
+---
 
-![Prueba](./img/6.jpg)
+## Pasos detallados
 
-crear el repositorio en Github :
+### 1. Crear el repositorio local en Windows
+Creé un nuevo repositorio local en Windows con `git init`.
+. creé la carpeta:
+![Alt text](./i)
 
-![Prueba](./img/3.jpg)
+### 2. Añadir archivos al repositorio
+Añadí dos archivos de texto, `archivo1.txt` y `archivo2.txt`, con contenido libre.
 
-Tener el URL desde GITHUB :
+### 3. Conectar con el repositorio remoto en GitHub
+Conecté el repositorio local con un repositorio remoto en GitHub usando `git remote add`.
 
-![Prueba](./img/4.jpg)
+### 4. Subir el repositorio local a GitHub
+Subí el repositorio local a GitHub con `git push`.
 
-Para iniciar el control de versiones y permitir el seguimiento de cambios en la carpeta:
-![Prueba](./img/5.jpg)
+### 5. Clonar el repositorio en Linux Debian
+Cloné el repositorio remoto en mi máquina virtual Linux Debian usando `git clone`.
 
-Paso 2: Conectar con un repositorio remoto en GitHub
-Comando: git remote add origin [URL del repositorio en GitHub]
-Ahora vamos a conectar nuestro repositorio local en Windows con un repositorio remoto en GitHub. Esto nos permitirá subir nuestros archivos para compartirlos con otros desarrolladores o simplemente para hacer una copia de seguridad en la nube:
+### 6. Modificar archivos y añadir uno nuevo en Windows
+Modifiqué en Windows uno de los archivos y añadí un tercer archivo llamado `archivo3.txt`.
 
-![Prueba](./img/7.jpg)
+### 7. Confirmar y subir los cambios al repositorio
+Confirmé los cambios con `git add` y `git commit`, y subí los cambios al repositorio con `git push`.
 
+### 8. Actualizar la versión local en Linux Debian
+Actualicé la versión local del repositorio en Linux Debian con `git pull`.
 
-Paso 3: Subir el repositorio local a GitHub
-Comando: git push origin main
-Subimos el repositorio local, incluyendo los archivos archivo1.txt y archivo2.txt al repositorio remoto en GitHub. Este proceso envía todo el contenido del repositorio local a la nube, asegurando que nuestros archivos estén accesibles desde cualquier lugar.
-
-
-
-
-Paso 4: Clonar el repositorio en una máquina virtual Linux Debian
-Comando: git clone [URL del repositorio en GitHub]
-En la máquina virtual con Linux Debian, clonamos el repositorio remoto. Esto crea una copia local en Debian de todo lo que subimos desde Windows, demostrando cómo Git facilita el trabajo distribuido.
-
-
-
-Paso 5: Modificar archivos y agregar un nuevo archivo en Windows
-Comandos:
-git add archivo1.txt archivo3.txt
-git commit -m "Modificado archivo1.txt y agregado archivo3.txt"
-git push origin main
-Desde Windows, hacemos una modificación en archivo1.txt, y añadimos un nuevo archivo llamado archivo3.txt. Confirmamos los cambios con git commit y los subimos nuevamente a GitHub con git push. Ahora, nuestros cambios están actualizados en el repositorio remoto.
-
-
-
-
-
-Paso 6: Actualizar el repositorio en Linux Debian
-Comando: git pull
-Finalmente, en la máquina virtual Debian, actualizamos la versión local del repositorio con el comando git pull. Este comando descarga los cambios que hicimos desde Windows, sincronizando los archivos locales en Debian con los más recientes subidos a GitHub.
-
-
-
-
-jytd jerrt wakha 
