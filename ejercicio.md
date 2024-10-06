@@ -57,6 +57,6 @@ Comando: git pull
 Finalmente, en la máquina virtual Debian, actualizamos la versión local del repositorio con el comando git pull. Este comando descarga los cambios que hicimos desde Windows, sincronizando los archivos locales en Debian con los más recientes subidos a GitHub.
 
 
-ngfdty kufhb
+
 
 
