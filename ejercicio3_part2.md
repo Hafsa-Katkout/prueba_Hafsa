@@ -18,12 +18,16 @@ Usando el comando `git branch`
    ![jzcr](./images/eje3.2_images/3.jpg)
 
 Luego, cambiar a la rama principal main:
+![jzcr](./images/eje3.2_images/4.jpg)
+
+Ahora, fusionar la rama "primera" con la rama principal :
+![jzcr](./images/eje3.2_images/5.jpg)
 
    ### ¿Se ha producido conflicto?
-
+      No 
 
    ### Razón de la respuesta
-
+porque no hay modificaciones simultáneas en los mismos archivos desde ambas ramas.
 
 
 ## Eliminar la rama "primera"
