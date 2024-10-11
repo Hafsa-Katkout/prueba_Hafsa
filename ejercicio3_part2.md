@@ -1,17 +1,20 @@
 ## Crear la rama "primera" en el repositorio local
- usamos el comando 
+ Usando el comando `git branch -b primera`
+![jzcr](./images/eje3.2_images/1.jpg)
 
 
 
   ### Instrucción para comprobar la creación de la rama
+Usando el comando `git branch`
 
-
+![jzcr](./images/eje3.2_images/2.jpg)
 
 ## Añadir un nuevo fichero en la rama "primera" y fusionarlo con la rama principal
 
 
-   ### Explicación del proceso de fusión
-    
+   ### Explicación del proceso:
+ Primero, añadir un nuevo archivo en la rama "primera" , por ejemplo llamarlo `archivo.txt`
+ 
     
    ### ¿Se ha producido conflicto?
 
@@ -54,5 +57,3 @@
 
 
    ### Captura de pantalla del repositorio en GitHub mostrando la creación de la rama
-   zksuetfaw
-   ksetbgnjkhl  
