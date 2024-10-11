@@ -68,7 +68,7 @@ hacemos `git merge segunda`: y nos da el **conflicto** :
 
    ### Sincronización de la rama en el repositorio remoto
    
-![jzcr](./images/eje3.2_images/13.jpg)
+![jzcr](./images/eje3.2_images/15.jpg)
 
 
    ### Captura de pantalla del repositorio en GitHub mostrando la creación de la rama
