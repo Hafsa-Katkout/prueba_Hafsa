@@ -31,20 +31,28 @@ porque no hay modificaciones simultáneas en los mismos archivos desde ambas ram
 
 
 ## Eliminar la rama "primera"
-
-
-
+![jzcr](./images/eje3.2_images/6.jpg)
 
 ## Crear la rama "segunda" y provocar un conflicto
+primero creamos la rama `segunda` :
 
-
+![jzcr](./images/eje3.2_images/7.jpg)
 
 
    ### Modificación del fichero para generar un conflicto
+   modificamos el fichero dentro de la rama `segunda` :
 
+![jzcr](./images/eje3.2_images/9.jpg)
 
+entramos en el mismo archivo desde la rama main y hacemos modificacion : 
 
-   ### Entrega del contenido del fichero con el conflicto
+![jzcr](./images/eje3.2_images/10.jpg)
+
+hacemos `git merge segunda`: y nos da el **conflicto** :
+
+![jzcr](./images/eje3.2_images/11.jpg)
+
+![jzcr](./images/eje3.2_images/12.jpg)
 
 
 
@@ -53,14 +61,14 @@ porque no hay modificaciones simultáneas en los mismos archivos desde ambas ram
 
 
 
-
    ### Solución del conflicto
-
-
+![jzcr](./images/eje3.2_images/13.jpg)
+![jzcr](./images/eje3.2_images/14.jpg)
 
 
    ### Sincronización de la rama en el repositorio remoto
-
+   
+![jzcr](./images/eje3.2_images/13.jpg)
 
 
    ### Captura de pantalla del repositorio en GitHub mostrando la creación de la rama
