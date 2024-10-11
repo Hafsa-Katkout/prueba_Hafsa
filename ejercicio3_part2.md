@@ -14,8 +14,11 @@ Usando el comando `git branch`
 
    ### Explicación del proceso:
  Primero, añadir un nuevo archivo en la rama "primera" , por ejemplo llamarlo `archivo.txt`
- 
-    
+
+   ![jzcr](./images/eje3.2_images/3.jpg)
+
+Luego, cambiar a la rama principal main:
+
    ### ¿Se ha producido conflicto?
 
 
