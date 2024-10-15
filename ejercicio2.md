@@ -11,22 +11,14 @@ Esto es un trozo de codigo
 ```
 
 ## Una lista ordenada
-1. gfukyghkbhg
-2. saesytc liuwegai
-3. keyrg
-4. kweyxf 
-5. seicty 
-6. eliuyrxye
-7. selrct 
-8. ahgefrygfb
+1. Hola
+2. Bonjour
+3. Salam
 --- 
 ## Una lista desordenada 
-- kwuqcrt 4yu
-- qwucrc 
-- wekukct 
-- w3i4ct
-- aeocbty
-- e4u5ubytiv54y
+- Hola
+- Bonjour
+- Salam
   
 ## Un enlace a una URL externa :
 
@@ -34,7 +26,7 @@ Esto es un trozo de codigo
 
 ## Un enlace a otro fichero Markdown que tengas en el repositorio:
 
-[lo que sea](ejercicio.md)
+[enlace a ejercicio1.md](ejercicio.md)
 
 
 ## Una imagen:
